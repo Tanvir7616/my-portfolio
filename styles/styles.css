@@ -137,6 +137,7 @@ nav .menu a{
     padding-bottom: 30px;
     font-size: 35px;
     font-weight: bold;
+    text-align: center;
 }
 .section-heading p{
     color: #757575;
@@ -144,6 +145,9 @@ nav .menu a{
     max-width: 827px;
     padding-bottom: 30px;
     line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    
 
 }
 
@@ -161,4 +165,42 @@ nav .menu a{
     font-size: 20px;
     color: #474747;
     font-weight: bold;
+}
+.skill-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.skill-boxes{
+    display: flex;
+    gap: 24px;
+}
+.skill-box{
+    padding: 30px;
+    max-width: 267px;
+    box-shadow: 0 6px 50px 0 #0000001c;
+}
+
+.skill-box img{
+    max-width: 44px;
+    margin: 30px 193px 30px 30px;
+    text-align: left;
+}
+.skill-box h3{
+    color: #181818;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    max-width: 174px;
+    text-align: left;
+}
+.skill-box p{
+    color: #757575;
+    max-width: 201px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
 }
