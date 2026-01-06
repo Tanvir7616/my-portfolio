@@ -57,7 +57,7 @@ nav .menu a{
 }
 
 .banner{
-    border: 1px solid black;
+    
     margin: 47px 38px 0 230px;
     display: flex;
     align-items: center;
@@ -116,4 +116,49 @@ nav .menu a{
 .banner-image{
     max-width: 584px;
     vertical-align: middle;
+}
+
+.about{
+    
+    padding-top: 130px;
+    
+
+}
+.about-container{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    width: 71%;
+    max-width: 1140px;
+    padding: 131px 157px;
+}
+
+.section-heading h2{
+    padding-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-heading p{
+    color: #757575;
+    font-size: 18px;
+    max-width: 827px;
+    padding-bottom: 30px;
+    line-height: 30px;
+
+}
+
+.about-info{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-card p{
+    color: #757575;
+    font-size: 20px;
+    line-height: 30px;
+}
+.about-card h4{
+    font-size: 20px;
+    color: #474747;
+    font-weight: bold;
 }
